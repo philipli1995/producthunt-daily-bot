@@ -27,26 +27,6 @@ Product Hunt 每日热榜是一个基于 GitHub Action 的自动化工具，它�
 - OpenAI API Key
 - Product Hunt API 凭证
 
-### 代码结构
-
-```
-.
-├── .github
-│   └── workflows
-│       └── generate.yml
-├── data
-│   └── producthunt-daily-YYYY-MM-DD.md
-├── README.md
-├── requirements.txt
-└── scripts
-│   └── main.py
-│   └── utils
-│       └── ph_utils.py: Product Hunt工具类：获取数据
-│       └── markdown_utils.py: Markdown工具类：生成文件
-│       └── common_utils.py: 通用工具类
-│       └── llm_utils.py: LLM工具类：调用GPT生成关键词、翻译等
-│       └── web_utils.py: Web工具类：获取og图，解析Html等
-```
 
 ### 安装
 
@@ -90,7 +70,28 @@ pip install -r requirements.txt
 
 ### 自定义
 
-- 您可以修改 `scripts/main.py` 文件来自定义生成文件的格式或添加额外内容。
+#### 代码结构
+
+```
+.
+├── .github
+│   └── workflows
+│       └── generate.yml
+├── data
+│   └── producthunt-daily-YYYY-MM-DD.md
+├── README.md
+├── requirements.txt
+└── scripts
+│   └── main.py
+│   └── utils
+│       └── ph_utils.py: Product Hunt工具类：获取数据
+│       └── markdown_utils.py: Markdown工具类：生成文件
+│       └── common_utils.py: 通用工具类
+│       └── llm_utils.py: LLM工具类：调用GPT生成关键词、翻译等
+│       └── web_utils.py: Web工具类：获取og图，解析Html等
+```
+
+- 可以参照以上代码结构，按需添加或修改功能。
 - 如果需要，可以在 `.github/workflows/generate.yml` 中调整定时任务的运行时间。
 
 ### 示例输出
