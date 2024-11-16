@@ -1,6 +1,6 @@
 # Product Hunt 每日热榜
 
-![License](https://img.shields.io/github/license/ViggoZ/producthunt-daily-hot) ![Python](https://img.shields.io/badge/python-3.x-blue)
+![License](https://img.shields.io/github/license/iAmCorey/producthunt-daily-bot) ![Python](https://img.shields.io/badge/python-3.x-blue)
 
 ## 项目介绍
 
@@ -103,3 +103,7 @@ pip install -r requirements.txt
 ### 贡献
 
 欢迎任何形式的贡献！如有任何改进或新功能的建议，请提交 issue 或 pull request。
+
+### 许可证
+
+本项目基于 MIT 许可证开源 - 有关详细信息，请参阅 [LICENSE](LICENSE) 文件。
