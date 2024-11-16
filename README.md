@@ -1,10 +1,10 @@
-# Product Hunt 每日热榜
+# Product Hunt 每日热榜自动获取bot
 
 ![License](https://img.shields.io/github/license/iAmCorey/producthunt-daily-bot) ![Python](https://img.shields.io/badge/python-3.x-blue)
 
 ## 项目介绍
 
-Product Hunt 每日热榜是一个基于 GitHub Action 的自动化工具，它能够每天定时生成 Product Hunt 上的热门产品榜单 Markdown 文件，并自动提交到 GitHub 仓库中。该项目旨在帮助用户快速查看每日的 Product Hunt 热门榜单，并提供更详细的产品信息。
+Product Hunt 每日热榜自动获取bot是一个基于 GitHub Action 的自动化工具，它能够每天定时生成 Product Hunt 上的热门产品榜单 Markdown 文件，并自动提交到 GitHub 仓库中。该项目旨在帮助用户快速查看每日的 Product Hunt 热门榜单，并提供更详细的产品信息。
 
 
 ## 功能概述
