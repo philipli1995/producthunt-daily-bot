@@ -71,6 +71,7 @@ pip install -r requirements.txt
 
    在您的 GitHub 仓库中添加以下 Secrets：
 
+   - `OPENAI_BASE_URL`: 您的 OpenAI API 地址(例如 openrouter)。
    - `OPENAI_API_KEY`: 您的 OpenAI API 密钥。
    - `PH_API_KEY`: 您的 Product Hunt API 客户端 ID。
    - `PH_API_SECRET`: 您的 Product Hunt API 客户端密钥。
