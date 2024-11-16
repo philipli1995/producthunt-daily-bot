@@ -1,4 +1,4 @@
-name: Generate Daily Markdown
+name: Generate Daily Product Hunt Markdown
 
 on:
   schedule:
@@ -22,7 +22,7 @@ jobs:
       run: |
         pip install -r requirements.txt
 
-    - name: Generate Markdown
+    - name: Generate Product Hunt Markdown
       env:
         OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
