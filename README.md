@@ -1,5 +1,9 @@
 # Product Hunt 每日热榜
 
+![License](https://img.shields.io/github/license/ViggoZ/producthunt-daily-hot) ![Python](https://img.shields.io/badge/python-3.x-blue)
+
+## 项目介绍
+
 Product Hunt 每日热榜是一个基于 GitHub Action 的自动化工具，它能够每天定时生成 Product Hunt 上的热门产品榜单 Markdown 文件，并自动提交到 GitHub 仓库中。该项目旨在帮助用户快速查看每日的 Product Hunt 热门榜单，并提供更详细的产品信息。
 
 
@@ -91,6 +95,10 @@ pip install -r requirements.txt
 ### 示例输出
 
 生成的文件存储在 `data/` 目录下。每个文件以 `producthunt-daily-YYYY-MM-DD.md` 的格式命名。
+
+### 致谢
+
+项目修改自 [ph-daily-hot](https://github.com/ViggoZ/ph-daily-hot)
 
 ### 贡献
 
