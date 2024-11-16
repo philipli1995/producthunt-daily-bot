@@ -96,7 +96,7 @@ pip install -r requirements.txt
 
 ### 示例输出
 
-生成的文件存储在 `data/` 目录下。每个文件以 `producthunt-daily-YYYY-MM-DD.md` 的格式命名。
+生成的文件存储在 `data/` 目录下。每个文件以 `producthunt-daily-YYYY-MM-DD-LANGUAGE.md` 的格式命名。
 
 ### 致谢
 
