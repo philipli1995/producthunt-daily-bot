@@ -23,6 +23,8 @@ def main():
     num = int(os.getenv('NUM')) if os.getenv('NUM') else 10
     ph_api_key = os.getenv('PH_API_KEY')
     ph_api_secret = os.getenv('PH_API_SECRET')
+    print(f"PH_API_KEY: {ph_api_key}")
+    print(f"PH_API_SECRET: {ph_api_secret}")
     print(f"开始获取 Product Hunt 数据... 获取 {num} 条数据")
     products = fetch_product_hunt_data(
         num,
