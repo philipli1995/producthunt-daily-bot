@@ -1,11 +1,11 @@
 import os
 from datetime import datetime, timedelta, timezone
-# from dotenv import load_dotenv
+from dotenv import load_dotenv
 from utils.ph_utils import fetch_product_hunt_data
 from utils.markdown_utils import generate_markdown_file
 
 # 加载环境变量
-# load_dotenv()
+load_dotenv()
 
 def main():
     start_time = datetime.now()
