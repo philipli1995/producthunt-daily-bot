@@ -60,7 +60,8 @@ pip install -r requirements.txt
    - `LANGUAGE`: 语言，可选值为 `zh` 或 `en`，默认值为 `en`。
    - `NUM`: 获取的产品数量，默认值为 `10`。
 
-注意：
+#### 注意
+
 PAT获取方法：右上角个人头像 -> Settings -> Developer settings -> Personal access tokens -> Generate new token
    
 注意PAT权限要获取workflow和repo的所有权限
