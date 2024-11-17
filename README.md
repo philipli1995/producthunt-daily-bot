@@ -58,6 +58,8 @@ pip install -r requirements.txt
    - `PH_API_SECRET`: 您的 Product Hunt API 客户端密钥。
    - `PAT`: 用于推送更改到仓库的个人访问令牌。
    PAT获取方法：右上角个人头像 -> Settings -> Developer settings -> Personal access tokens -> Generate new token
+   注意PAT权限要获取workflow和repo的所有权限
+   并且仓库设置里的Settings -> Actions -> General -> Read and write permissions 要开启
    - `LANGUAGE`: 语言，可选值为 `zh` 或 `en`，默认值为 `en`。
    - `NUM`: 获取的产品数量，默认值为 `10`。
 
