@@ -62,7 +62,8 @@ pip install -r requirements.txt
 
 2. **GitHub Actions 工作流：**
 
-   工作流定义在 `.github/workflows/generate.yml` 中。该工作流每天 UTC 时间 07:01（北京时间 15:01）自动运行，也可以手动触发。
+   工作流定义在 `.github/workflows/generate.yml` 中。
+   该工作流运行时间：冬令时：每天UTC时间早上8:01（北京时间下午4:01自动运行） 夏令时：每天UTC时间早上7:01（北京时间下午3:01自动运行），也可以手动触发。
 
 ### 使用
 
