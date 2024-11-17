@@ -23,8 +23,14 @@ def main():
     num = int(os.getenv('NUM')) if os.getenv('NUM') else 10
     ph_api_key = os.getenv('PH_API_KEY')
     ph_api_secret = os.getenv('PH_API_SECRET')
-    print(f"PH_API_KEY: {ph_api_key}")
-    print(f"PH_API_SECRET: {ph_api_secret}")
+    if not ph_api_key or not ph_api_secret:
+        raise ValueError("错误: 未设置 PH_API_KEY 或 PH_API_SECRET 环境变量。请在 GitHub Actions secrets 中设置这些值。")
+    
+    # 打印脱敏的API密钥信息用于调试
+    print(f"PH_API_KEY: {'*' * len(ph_api_key)}")
+    print(f"PH_API_SECRET: {'*' * len(ph_api_secret)}")
+    
+
     print(f"开始获取 Product Hunt 数据... 获取 {num} 条数据")
     products = fetch_product_hunt_data(
         num,

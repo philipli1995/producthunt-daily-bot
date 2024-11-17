@@ -50,6 +50,7 @@ pip install -r requirements.txt
 1. **GitHub Secrets：**
 
    在您的 GitHub 仓库中添加以下 Secrets：
+   添加路径：Github仓库 -> Settings -> Secrets and variables -> Actions -> New repository secret
 
    - `OPENAI_BASE_URL`: 您的 OpenAI API 地址(例如 openrouter)。
    - `OPENAI_API_KEY`: 您的 OpenAI API 密钥。
