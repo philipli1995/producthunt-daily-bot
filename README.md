@@ -60,16 +60,6 @@ pip install -r requirements.txt
    - `LANGUAGE`: 语言，可选值为 `zh` 或 `en`，默认值为 `en`。
    - `NUM`: 获取的产品数量，默认值为 `10`。
 
-#### 注意
-
-PAT获取方法：右上角个人头像 -> Settings -> Developer settings -> Personal access tokens -> Generate new token
-   
-注意PAT权限要获取workflow和repo的所有权限
-   
-并且仓库设置里的Settings -> Actions -> General -> Read and write permissions 要开启
-   
-
-
 2. **GitHub Actions 工作流：**
 
    工作流定义在 `.github/workflows/generate.yml` 中。
@@ -108,6 +98,15 @@ PAT获取方法：右上角个人头像 -> Settings -> Developer settings -> Per
 ### 示例输出
 
 生成的文件存储在 `data/` 目录下。每个文件以 `producthunt-daily-YYYY-MM-DD-LANGUAGE.md` 的格式命名。
+
+### 注意
+
+PAT获取方法：右上角个人头像 -> Settings -> Developer settings -> Personal access tokens -> Generate new token
+   
+注意PAT权限要获取workflow和repo的所有权限
+   
+并且仓库设置里的Settings -> Actions -> General -> Read and write permissions 要开启
+   
 
 ### 致谢
 
