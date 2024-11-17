@@ -48,8 +48,9 @@ def save_markdown_file(content: str, date_today: str, language: str) -> None:
         content: Markdown内容
         date_today: 今天的日期字符串
     """
-    ensure_directory_exists('data')
-    file_name = f"data/producthunt-daily-{date_today}-{language}.md"
+    ensure_directory_exists(f'data/{language}')
+    file_name = f"data/{language}/producthunt-daily-{date_today}.md"
+
     
     with open(file_name, 'w', encoding='utf-8') as file:
         file.write(content)

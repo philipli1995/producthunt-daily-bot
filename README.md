@@ -57,7 +57,7 @@ pip install -r requirements.txt
    - `PH_API_KEY`: 您的 Product Hunt API 客户端 ID。
    - `PH_API_SECRET`: 您的 Product Hunt API 客户端密钥。
    - `PAT`: 用于推送更改到仓库的个人访问令牌。
-   - `LANGUAGE`: 语言，可选值为 `zh` 或 `en`，默认值为 `en`。
+   - `LANGUAGE`: 语言，例如 `en`。多个语言用`,`隔开。例如`en,zh`。
    - `NUM`: 获取的产品数量，默认值为 `10`。
 
 2. **GitHub Actions 工作流：**
@@ -79,11 +79,12 @@ pip install -r requirements.txt
 │   └── workflows
 │       └── generate.yml
 ├── data
-│   └── producthunt-daily-YYYY-MM-DD.md
+│   └── language
+│       └── producthunt-daily-YYYY-MM-DD.md
 ├── README.md
 ├── requirements.txt
 └── scripts
-│   └── main.py
+│   └── main.py 主方法
 │   └── utils
 │       └── ph_utils.py: Product Hunt工具类：获取数据
 │       └── markdown_utils.py: Markdown工具类：生成文件
@@ -97,7 +98,7 @@ pip install -r requirements.txt
 
 ### 示例输出
 
-生成的文件存储在 `data/` 目录下。每个文件以 `producthunt-daily-YYYY-MM-DD-LANGUAGE.md` 的格式命名。
+生成的文件存储在 `data/language` 目录下。每个文件以 `producthunt-daily-YYYY-MM-DD.md` 的格式命名。
 
 ### 注意
 
