@@ -111,7 +111,7 @@ PAT获取方法：右上角个人头像 -> Settings -> Developer settings -> Per
 
 ### 致谢
 
-项目修改自 [ph-daily-hot](https://github.com/ViggoZ/ph-daily-hot)
+项目修改自 [ph-daily-hot](https://github.com/ViggoZ/producthunt-daily-hot)
 
 ### 贡献
 
